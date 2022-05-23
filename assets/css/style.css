@@ -85,3 +85,94 @@ header{
     background: url("../img/arrow-down.png") right center;
     background-repeat: no-repeat;
 }
+h1.logo{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 40px;
+    background: url("../img/logo.png") left center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.search{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    display: flex;
+}
+.search-icon>div{
+    width: 24px;
+    height: 24px;
+    margin-right: 25px;
+}
+.search-icon>div:last-child{
+    margin-right: 0px;
+}
+.shop{
+    background: url("../img/shop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.shop:before{
+    content: attr(data-number);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: calc(50% + 7px);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #7AC751;
+   text-align: center;
+}
+.notification{
+    background: url("../img/notification.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.user{
+    background: url("../img/user.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.search-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 2px solid #7AC751;
+}
+.search-panel>input{
+    border: none;
+    border-right: 1.5px solid rgba(227, 227, 227, 0.78);;
+    outline: none;
+    border-radius: 3px 0px 0px 3px;
+    padding: 15px 0px 15px 25px;
+}
+.search-panel>input:focus{
+    font-family: inherit;
+    color: inherit;
+}
+.dropdown{
+    color: #555555;
+    background: url("../img/arrow-categories.png") right 15px center;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+.btn{
+    background: #7AC751;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn>img{
+    padding: 14px 20px;
+}
