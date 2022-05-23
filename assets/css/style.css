@@ -176,3 +176,38 @@ h1.logo{
 .btn>img{
     padding: 14px 20px;
 }
+nav{
+    background: #F7F8FA;
+    margin-top: 25px;
+}
+.title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: url("../img/title-bg.png") left 30px center;
+    background-color: #7AC751;
+    background-repeat: no-repeat;
+    padding: 25px 40px 25px 74px;
+    margin-right: 52px;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar-item{
+    display: flex;
+}
+.nav-bar-link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+    padding: 25px 30px;
+}
+nav>.wrapper{
+    justify-content: flex-start;
+}
