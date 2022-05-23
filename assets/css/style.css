@@ -211,3 +211,50 @@ nav{
 nav>.wrapper{
     justify-content: flex-start;
 }
+.info{
+    margin: 50px auto;
+}
+.info__card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card{
+    padding-left: 72px;
+    display: flex;
+    flex-direction: column;
+}
+.card[data-type='shipping']{
+    background: url("../img/free-shipping.png") left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card[data-type='smart']{
+    background: url("../img/smart.png") left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card[data-type='payment']{
+    background: url("../img/wallet.png") left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card[data-type='support']{
+    background: url("../img/support.png") left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.card>h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+.card>span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(81, 81, 81, 0.71);
+}
