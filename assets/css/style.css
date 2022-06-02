@@ -900,6 +900,7 @@ h2.wrapper {
 .slider {
     padding: 47px 22px;
     background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+    width: 100%;
 }
 
 .slider-row {
