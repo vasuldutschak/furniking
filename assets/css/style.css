@@ -202,7 +202,7 @@ h1.logo {
     padding-left: 10px;
 }
 
-.btn {
+.btn__search {
     background: #7AC751;
     border: none;
     display: flex;
@@ -210,7 +210,7 @@ h1.logo {
     align-items: center;
 }
 
-.btn > img {
+.btn__search > img {
     padding: 14px 20px;
 }
 
@@ -220,6 +220,7 @@ nav {
 }
 
 .title {
+    position: relative;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -230,8 +231,42 @@ nav {
     background-repeat: no-repeat;
     padding: 25px 40px 25px 74px;
     margin-right: 52px;
+    transition: height 3s;
 }
+.title:hover >.title__hover{
+    height: max-content;
+}
+.title__hover{
+    position: absolute;
+    background: #F7F8FA;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    height: 0px;
+    overflow: hidden;
+}
+.title__menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.title_item{
+    padding-left: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E3E3E3;
+}
+.title__link{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: #555555;
 
+}
 .nav-bar {
     display: flex;
     list-style: none;
