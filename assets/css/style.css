@@ -1017,3 +1017,80 @@ h2.wrapper {
 .mrg-t-10{
     margin-top: 10px;
 }
+.slider-wrapper {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0px 50px;
+}
+
+.slider-inner {
+    display: -webkit-inline-box;
+    overflow: hidden;
+    width: inherit;
+    padding-top: 45px;
+}
+
+.slider-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F8FAFB;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 60px 125px 47px;
+    text-align: center;
+}
+.slider-img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: #1571a4;
+    position: absolute;
+    top: -44px;
+}
+.slider-controls{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
+.slider-item-description{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #515151;
+    margin-bottom: 30px;
+}
+.slider-item-username{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #555555;
+    margin-bottom: 8px;
+}
+.slider-item-occupation{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #515151;
+}
+.testimonials{
+    margin: 115px 0px;
+}
